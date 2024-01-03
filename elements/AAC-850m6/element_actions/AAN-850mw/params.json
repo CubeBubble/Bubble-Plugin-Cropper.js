@@ -1,0 +1,36 @@
+{
+    "caption": "Upload Cropped Image",
+    "fields": {
+        "AAO": {
+            "caption": "Website Home URL",
+            "editor": "DynamicValue",
+            "name": "websiteHomeUrl",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAP": {
+            "caption": "Name",
+            "editor": "DynamicValue",
+            "name": "name",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "Format",
+            "default_val": "image/webp",
+            "editor": "Dropdown",
+            "name": "format",
+            "options": "image/webp",
+            "rank": 2
+        },
+        "AAR": {
+            "caption": "Quality",
+            "default_val": 0.4,
+            "doc": "0 - 1",
+            "editor": "DynamicValue",
+            "name": "quality",
+            "rank": 3,
+            "value": "number"
+        }
+    }
+}

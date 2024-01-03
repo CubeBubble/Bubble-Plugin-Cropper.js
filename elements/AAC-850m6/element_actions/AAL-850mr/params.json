@@ -1,0 +1,13 @@
+{
+    "caption": "Rotate",
+    "fields": {
+        "AAM": {
+            "caption": "Degree",
+            "default_val": 90,
+            "editor": "DynamicValue",
+            "name": "degree",
+            "rank": 0,
+            "value": "number"
+        }
+    }
+}

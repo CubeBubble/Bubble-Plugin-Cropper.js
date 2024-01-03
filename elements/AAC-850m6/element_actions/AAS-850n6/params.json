@@ -1,0 +1,12 @@
+{
+    "caption": "Set Image",
+    "fields": {
+        "AAT": {
+            "caption": "Image URL",
+            "editor": "DynamicValue",
+            "name": "imageUrl",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

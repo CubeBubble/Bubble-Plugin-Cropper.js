@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "media",
+        "1": "data (things)",
+        "2": "technical",
+        "3": "productivity"
+    },
+    "description": "A simple image cropper using cropper.js",
+    "image": "//meta-q.cdn.bubble.io/f1701856360912x126688235403324960/logo.svg",
+    "license": "open_source",
+    "name": "Cropper.js"
+}

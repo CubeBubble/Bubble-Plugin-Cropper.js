@@ -1,0 +1,81 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 240,
+        "width": 240
+    },
+    "display": "Cropper",
+    "events": {
+        "AAK": {
+            "caption": "File is uploaded",
+            "name": "fileIsUploaded"
+        }
+    },
+    "fields": {
+        "AAE": {
+            "caption": "View Mode",
+            "default_val": "0",
+            "editor": "Dropdown",
+            "name": "viewMode",
+            "options": "0,1,2,3",
+            "rank": 0
+        },
+        "AAF": {
+            "caption": "Drag Mode",
+            "default_val": "crop",
+            "editor": "Dropdown",
+            "name": "dragMode",
+            "options": "crop,move,none",
+            "rank": 1
+        },
+        "AAG": {
+            "caption": "Zoomable",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "zoomable",
+            "rank": 2,
+            "value": "boolean"
+        },
+        "AAH": {
+            "caption": "Background",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "background",
+            "rank": 3
+        },
+        "AAI": {
+            "caption": "Movable",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "movable",
+            "rank": 4
+        },
+        "AAU": {
+            "caption": "Aspect Ratio",
+            "editor": "DynamicValue",
+            "name": "aspectRatio",
+            "optional": true,
+            "rank": 5,
+            "value": "number"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAJ": {
+            "caption": "File",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\treturn null;\n\n}"
+            },
+            "name": "file",
+            "value": "file"
+        }
+    }
+}
